@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+	--main-color: linear-gradient(90deg, #C7C5F4, #776BCC);
+	--sub-color: #776BCC;
+	--light-color: #67636368;
+}
+
+html, body{
+	overflow-x: hidden !important;;
+}
+
+body {
+	background: linear-gradient(90deg, #C7C5F4, #776BCC);
+	min-height: 100vh;
+}
+
+.nav-clr {
+	background-color: var(--sub-color) !important;
+	color: white;
+}
